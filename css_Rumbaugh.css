@@ -1,6 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
 .nav-bar {
-    border: 1px solid white; 
+    border: 1px solid black; 
+    text-align: center;
+    width: 300px;
+    height: 0 auto;
+    margin: 0 auto;
+    color: white;
+    padding: 5px;
 }
-head {
-    background-color: red;
+
+#head {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#side-bar {
+    border: 1px solid black;
+    padding: 20px;
+    float: left;
+    height: 300px;
+}
+
+
+#footer-bottom{
+  text-align: center;
+  float: none;
+  border: 1px black solid;
+}
+
+#image {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    float: left;
+}
+
+h1 {
+   margin: 10px;
+   text-align: center;
+}
+
+#info {
+   float: none;
 }
